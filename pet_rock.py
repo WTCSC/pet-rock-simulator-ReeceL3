@@ -27,7 +27,7 @@ def pet_rock_game():
         if choice == "1":  # Feed
             stats["hunger"] -= 2
             stats["happiness"] -= 1
-            print(f"You fed {name}. Hunger decreases, but happiness decreases slightly.")
+            print(f"You fed {name}. Hunger decreases, and happiness decreases slightly.")
         elif choice == "2":  # Play
             stats["happiness"] += 2
             stats["hunger"] += 1
